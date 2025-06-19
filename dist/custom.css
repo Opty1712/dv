@@ -1,0 +1,32 @@
+.image-text-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.text-container {
+  text-align: center;
+  max-width: 80%;
+  font-size: 2rem;
+  text-wrap: balance;
+}
+
+.authors {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.author-photo {
+  border-radius: 100%;
+  width: 50px;
+}
