@@ -30,3 +30,22 @@
   border-radius: 100%;
   width: 50px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.item {
+  aspect-ratio: 1 / 1;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #888;
+}
