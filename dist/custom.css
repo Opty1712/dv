@@ -49,3 +49,20 @@
   background-size: contain;
   background-color: #888;
 }
+
+.wrapper-df {
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.reveal img {
+  max-height: calc(var(--slide-height) - (var(--r-block-margin) * 2));
+}
+
+.reveal img.top {
+  max-height: calc(var(--slide-height) * 0.5);
+}
+
+.reveal img.side {
+  max-width: calc(var(--slide-width) * 0.5);
+}
