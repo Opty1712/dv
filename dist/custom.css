@@ -85,3 +85,30 @@
 .smallFont {
   font-size: 20px;
 }
+
+.reveal {
+  background-color: #0079fe;
+}
+
+.reveal .slides section {
+  background-color: transparent;
+}
+
+.img {
+  border-radius: 40px;
+  border: #fff solid 10px;
+}
+
+.hljs {
+  color: #ffffff !important;
+}
+
+.hljs-string,
+.hljs-number,
+.hljs-keyword {
+  color: #6eb4ff !important;
+}
+
+.hljs-comment {
+  color: #95a8ae !important;
+}
