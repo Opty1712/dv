@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]  # или master, если у тебя он
+    branches: [main] # или master
 
 jobs:
   deploy:
@@ -21,6 +21,11 @@ jobs:
 
       - name: Build presentation
         run: npm run build
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
