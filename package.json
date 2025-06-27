@@ -12,7 +12,7 @@
     "test": "gulp test",
     "start": "gulp serve",
     "dev": "gulp serve",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -u \"github-actions[bot] <github-actions[bot]@users.noreply.github.com>\" -r https://x-access-token:${GITHUB_TOKEN}@github.com/opty1712/dv.git",
     "build": "gulp build",
     "serve": "npx serve"
   },
