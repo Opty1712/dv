@@ -87,16 +87,11 @@
 }
 
 .reveal {
-  background-color: #0079fe;
+  background-color: #0e0f10;
 }
 
 .reveal .slides section {
   background-color: transparent;
-}
-
-.img {
-  border-radius: 40px;
-  border: #fff solid 10px;
 }
 
 .hljs {
